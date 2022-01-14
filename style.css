@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container img{
+    width: 440px;
+    background-image: url(images/Circle\ design.svg);
+    padding: 30px 18px;
+    margin-right: 132px;
+}
+header h2,.header-details{
+    margin: 0 120px;
+}
+header h1,h2{
+    font-family: 'Poppins', sans-serif;
+}
+.button-link{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 10px 24px;
+    border: solid #E02C6D;
+    border-radius: 30px;
+}
+
+/* footer section */
+footer{
+    background-color: #0A0826;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+footer h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+footer p{
+    font-size: 14px; 
+}
+.fab{
+    background-color: rgba(128, 128, 128, 0.315);
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 8px;
+    margin-right: 16px;
+}
